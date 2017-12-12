@@ -13,6 +13,9 @@
 		E012A8991FDEAB3300939CAB /* ZBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A8981FDEAB3300939CAB /* ZBTabBar.m */; };
 		E043A47D1FDFA8DE000564ED /* ZBMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */; };
 		E043A47F1FDFA8EB000564ED /* ZBMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E043A47E1FDFA8EB000564ED /* ZBMiddleView.xib */; };
+		E043A48C1FDFAD8A000564ED /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A48A1FDFAD8A000564ED /* CALayer+PauseAimate.m */; };
+		E043A48F1FDFADD8000564ED /* UIImage+ZBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A48E1FDFADD8000564ED /* UIImage+ZBImage.m */; };
+		E043A4921FDFADFE000564ED /* UIView+ZBLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A4911FDFADFE000564ED /* UIView+ZBLayout.m */; };
 		E0476B1D1FDE9A460001AABC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0476B1C1FDE9A460001AABC /* ViewController.m */; };
 		E0476B201FDE9A460001AABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0476B1E1FDE9A460001AABC /* Main.storyboard */; };
 		E0476B221FDE9A460001AABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0476B211FDE9A460001AABC /* Assets.xcassets */; };
@@ -33,6 +36,12 @@
 		E043A47B1FDFA8DE000564ED /* ZBMiddleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBMiddleView.h; sourceTree = "<group>"; };
 		E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBMiddleView.m; sourceTree = "<group>"; };
 		E043A47E1FDFA8EB000564ED /* ZBMiddleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZBMiddleView.xib; sourceTree = "<group>"; };
+		E043A48A1FDFAD8A000564ED /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		E043A48B1FDFAD8A000564ED /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		E043A48D1FDFADD8000564ED /* UIImage+ZBImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZBImage.h"; sourceTree = "<group>"; };
+		E043A48E1FDFADD8000564ED /* UIImage+ZBImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZBImage.m"; sourceTree = "<group>"; };
+		E043A4901FDFADFE000564ED /* UIView+ZBLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZBLayout.h"; sourceTree = "<group>"; };
+		E043A4911FDFADFE000564ED /* UIView+ZBLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZBLayout.m"; sourceTree = "<group>"; };
 		E0476B151FDE9A460001AABC /* ZBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0476B1B1FDE9A460001AABC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0476B1C1FDE9A460001AABC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -79,6 +88,19 @@
 				E012A8901FDEA9FB00939CAB /* ZBTabBarController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		E043A4891FDFAD84000564ED /* Categoty */ = {
+			isa = PBXGroup;
+			children = (
+				E043A48B1FDFAD8A000564ED /* CALayer+PauseAimate.h */,
+				E043A48A1FDFAD8A000564ED /* CALayer+PauseAimate.m */,
+				E043A48D1FDFADD8000564ED /* UIImage+ZBImage.h */,
+				E043A48E1FDFADD8000564ED /* UIImage+ZBImage.m */,
+				E043A4901FDFADFE000564ED /* UIView+ZBLayout.h */,
+				E043A4911FDFADFE000564ED /* UIView+ZBLayout.m */,
+			);
+			path = Categoty;
 			sourceTree = "<group>";
 		};
 		E0476B0C1FDE9A460001AABC = {
@@ -151,6 +173,7 @@
 		E0476B331FDE9B100001AABC /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
+				E043A4891FDFAD84000564ED /* Categoty */,
 			);
 			name = BaseClasses;
 			path = ZBFM/BaseClasses;
@@ -243,6 +266,9 @@
 				E0476B1D1FDE9A460001AABC /* ViewController.m in Sources */,
 				E0476B3A1FDE9B550001AABC /* AppDelegate.m in Sources */,
 				E012A88E1FDEA9E500939CAB /* ZBNavigationController.m in Sources */,
+				E043A48F1FDFADD8000564ED /* UIImage+ZBImage.m in Sources */,
+				E043A4921FDFADFE000564ED /* UIView+ZBLayout.m in Sources */,
+				E043A48C1FDFAD8A000564ED /* CALayer+PauseAimate.m in Sources */,
 				E043A47D1FDFA8DE000564ED /* ZBMiddleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
