@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ZBTabBarController.h
 //  ZBFM
 //
 //  Created by Mzhangzb on 2017/12/11.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface ZBTabBarController : UITabBarController
 
 @end
-

@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E012A88E1FDEA9E500939CAB /* ZBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A88D1FDEA9E500939CAB /* ZBNavigationController.m */; };
+		E012A8911FDEA9FB00939CAB /* ZBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A8901FDEA9FB00939CAB /* ZBTabBarController.m */; };
+		E012A8961FDEAB1800939CAB /* ZBNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A8951FDEAB1800939CAB /* ZBNavBar.m */; };
+		E012A8991FDEAB3300939CAB /* ZBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A8981FDEAB3300939CAB /* ZBTabBar.m */; };
+		E043A47D1FDFA8DE000564ED /* ZBMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */; };
+		E043A47F1FDFA8EB000564ED /* ZBMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E043A47E1FDFA8EB000564ED /* ZBMiddleView.xib */; };
 		E0476B1D1FDE9A460001AABC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0476B1C1FDE9A460001AABC /* ViewController.m */; };
 		E0476B201FDE9A460001AABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0476B1E1FDE9A460001AABC /* Main.storyboard */; };
 		E0476B221FDE9A460001AABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0476B211FDE9A460001AABC /* Assets.xcassets */; };
 		E0476B251FDE9A460001AABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0476B231FDE9A460001AABC /* LaunchScreen.storyboard */; };
-		E0476B381FDE9B550001AABC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0476B341FDE9B550001AABC /* Info.plist */; };
 		E0476B391FDE9B550001AABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0476B351FDE9B550001AABC /* main.m */; };
 		E0476B3A1FDE9B550001AABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0476B371FDE9B550001AABC /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E012A88C1FDEA9E500939CAB /* ZBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBNavigationController.h; sourceTree = "<group>"; };
+		E012A88D1FDEA9E500939CAB /* ZBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBNavigationController.m; sourceTree = "<group>"; };
+		E012A88F1FDEA9FB00939CAB /* ZBTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBTabBarController.h; sourceTree = "<group>"; };
+		E012A8901FDEA9FB00939CAB /* ZBTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTabBarController.m; sourceTree = "<group>"; };
+		E012A8941FDEAB1800939CAB /* ZBNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBNavBar.h; sourceTree = "<group>"; };
+		E012A8951FDEAB1800939CAB /* ZBNavBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBNavBar.m; sourceTree = "<group>"; };
+		E012A8971FDEAB3300939CAB /* ZBTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBTabBar.h; sourceTree = "<group>"; };
+		E012A8981FDEAB3300939CAB /* ZBTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTabBar.m; sourceTree = "<group>"; };
+		E043A47B1FDFA8DE000564ED /* ZBMiddleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBMiddleView.h; sourceTree = "<group>"; };
+		E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBMiddleView.m; sourceTree = "<group>"; };
+		E043A47E1FDFA8EB000564ED /* ZBMiddleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZBMiddleView.xib; sourceTree = "<group>"; };
 		E0476B151FDE9A460001AABC /* ZBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0476B1B1FDE9A460001AABC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0476B1C1FDE9A460001AABC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -40,6 +56,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E012A8921FDEAA4A00939CAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E012A8941FDEAB1800939CAB /* ZBNavBar.h */,
+				E012A8951FDEAB1800939CAB /* ZBNavBar.m */,
+				E012A8971FDEAB3300939CAB /* ZBTabBar.h */,
+				E012A8981FDEAB3300939CAB /* ZBTabBar.m */,
+				E043A47B1FDFA8DE000564ED /* ZBMiddleView.h */,
+				E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */,
+				E043A47E1FDFA8EB000564ED /* ZBMiddleView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E012A8931FDEAA4A00939CAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E012A88C1FDEA9E500939CAB /* ZBNavigationController.h */,
+				E012A88D1FDEA9E500939CAB /* ZBNavigationController.m */,
+				E012A88F1FDEA9FB00939CAB /* ZBTabBarController.h */,
+				E012A8901FDEA9FB00939CAB /* ZBTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		E0476B0C1FDE9A460001AABC = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				E0476B2E1FDE9A920001AABC /* Classes */,
+				E0476B3B1FDE9CDC0001AABC /* Resource */,
 				E0476B1B1FDE9A460001AABC /* ViewController.h */,
 				E0476B1C1FDE9A460001AABC /* ViewController.m */,
 				E0476B1E1FDE9A460001AABC /* Main.storyboard */,
-				E0476B211FDE9A460001AABC /* Assets.xcassets */,
 				E0476B231FDE9A460001AABC /* LaunchScreen.storyboard */,
 			);
 			path = ZBFM;
@@ -90,6 +131,8 @@
 		E0476B301FDE9AB30001AABC /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
+				E012A8931FDEAA4A00939CAB /* Controller */,
+				E012A8921FDEAA4A00939CAB /* View */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
@@ -112,6 +155,14 @@
 			name = BaseClasses;
 			path = ZBFM/BaseClasses;
 			sourceTree = SOURCE_ROOT;
+		};
+		E0476B3B1FDE9CDC0001AABC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E0476B211FDE9A460001AABC /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -171,10 +222,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0476B381FDE9B550001AABC /* Info.plist in Resources */,
 				E0476B251FDE9A460001AABC /* LaunchScreen.storyboard in Resources */,
 				E0476B221FDE9A460001AABC /* Assets.xcassets in Resources */,
 				E0476B201FDE9A460001AABC /* Main.storyboard in Resources */,
+				E043A47F1FDFA8EB000564ED /* ZBMiddleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,8 +237,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0476B391FDE9B550001AABC /* main.m in Sources */,
+				E012A8961FDEAB1800939CAB /* ZBNavBar.m in Sources */,
+				E012A8911FDEA9FB00939CAB /* ZBTabBarController.m in Sources */,
+				E012A8991FDEAB3300939CAB /* ZBTabBar.m in Sources */,
 				E0476B1D1FDE9A460001AABC /* ViewController.m in Sources */,
 				E0476B3A1FDE9B550001AABC /* AppDelegate.m in Sources */,
+				E012A88E1FDEA9E500939CAB /* ZBNavigationController.m in Sources */,
+				E043A47D1FDFA8DE000564ED /* ZBMiddleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -310,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -321,13 +377,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5G3E3YMC4T;
-				INFOPLIST_FILE = ZBFM/Classes/Other/System/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZBFM/Classes/Other/System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzb.ZBFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -335,13 +392,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5G3E3YMC4T;
-				INFOPLIST_FILE = ZBFM/Classes/Other/System/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZBFM/Classes/Other/System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzb.ZBFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

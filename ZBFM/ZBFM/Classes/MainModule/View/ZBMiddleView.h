@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  ZBMiddleView.h
 //  ZBFM
 //
-//  Created by Mzhangzb on 2017/12/11.
+//  Created by Mzhangzb on 2017/12/12.
 //  Copyright © 2017年 zhangzhengbin. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZBMiddleView : UIView
 
 @end
-
