@@ -52,7 +52,6 @@ static ZBMiddleView *_shareInstance;
     basicAnnimation.repeatCount = MAXFLOAT;
     basicAnnimation.removedOnCompletion = NO;
     [self.middleImageView.layer addAnimation:basicAnnimation forKey:@"playAnnimation"];
-    
     [self.middleImageView.layer pauseAnimate];
     
     

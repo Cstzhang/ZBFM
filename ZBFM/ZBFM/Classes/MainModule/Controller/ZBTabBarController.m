@@ -35,10 +35,13 @@
     return tabbarVC;
 }
 
-- (void)viewDidLoad {
+
+-(void)viewDidLoad {
     [super viewDidLoad];
+    
     // 设置tabbar
     [self setUpTabbar];
+    
 }
 
 - (void)setUpTabbar {
@@ -91,6 +94,5 @@
     
     
 }
-
 
 @end

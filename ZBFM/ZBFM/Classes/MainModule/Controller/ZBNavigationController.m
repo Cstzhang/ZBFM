@@ -14,7 +14,6 @@
 @end
 
 @implementation ZBNavigationController
-
 -(instancetype)initWithRootViewController:(UIViewController *)rootViewController {
     if (self = [super initWithRootViewController:rootViewController]) {
         [self setValue:[[ZBNavBar alloc] init] forKey:@"navigationBar"];
@@ -70,25 +69,25 @@
     // 千万不要忘记写
     [super pushViewController:viewController animated:animated];
     
-    if (viewController.view.tag == 666) {
-        viewController.view.tag = 888;
-        ZBMiddleView *middleView = [ZBMiddleView middleView];
-        
-        middleView.middleClickBlock = [ZBMiddleView shareInstance].middleClickBlock;
-        middleView.isPlaying = [ZBMiddleView shareInstance].isPlaying;
-        middleView.middleImg = [ZBMiddleView shareInstance].middleImg;
-        
-        CGRect frame = middleView.frame;
-        frame.size.width = 65;
-        frame.size.height = 65;
-        CGSize screenSize = [UIScreen mainScreen].bounds.size;
-        frame.origin.x = (screenSize.width - 65) * 0.5;
-        frame.origin.y = screenSize.height - 65;
-        middleView.frame = frame;
-        [viewController.view addSubview:middleView];
-        
-    }
-    
+//    if (viewController.view.tag == 666) {
+//        viewController.view.tag = 888;
+//        ZBMiddleView *middleView = [ZBMiddleView middleView];
+//
+//        middleView.middleClickBlock = [ZBMiddleView shareInstance].middleClickBlock;
+//        middleView.isPlaying = [ZBMiddleView shareInstance].isPlaying;
+//        middleView.middleImg = [ZBMiddleView shareInstance].middleImg;
+//
+//        CGRect frame = middleView.frame;
+//        frame.size.width = 65;
+//        frame.size.height = 65;
+//        CGSize screenSize = [UIScreen mainScreen].bounds.size;
+//        frame.origin.x = (screenSize.width - 65) * 0.5;
+//        frame.origin.y = screenSize.height - 65;
+//        middleView.frame = frame;
+//        [viewController.view addSubview:middleView];
+//
+//    }
+//
     
 }
 
@@ -107,6 +106,7 @@
     return YES;
     
 }
+
 
 
 
