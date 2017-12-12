@@ -16,10 +16,11 @@
 		E043A48C1FDFAD8A000564ED /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A48A1FDFAD8A000564ED /* CALayer+PauseAimate.m */; };
 		E043A48F1FDFADD8000564ED /* UIImage+ZBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A48E1FDFADD8000564ED /* UIImage+ZBImage.m */; };
 		E043A4921FDFADFE000564ED /* UIView+ZBLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A4911FDFADFE000564ED /* UIView+ZBLayout.m */; };
-		E0476B1D1FDE9A460001AABC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0476B1C1FDE9A460001AABC /* ViewController.m */; };
-		E0476B201FDE9A460001AABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0476B1E1FDE9A460001AABC /* Main.storyboard */; };
+		E043A4951FDFBF89000564ED /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A4941FDFBF89000564ED /* TestVC.m */; };
+		E043A4981FDFBFA1000564ED /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A4971FDFBFA1000564ED /* TestVC2.m */; };
+		E043A49D1FDFC66E000564ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E043A4991FDFC66E000564ED /* Main.storyboard */; };
+		E043A49E1FDFC66E000564ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E043A49B1FDFC66E000564ED /* LaunchScreen.storyboard */; };
 		E0476B221FDE9A460001AABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0476B211FDE9A460001AABC /* Assets.xcassets */; };
-		E0476B251FDE9A460001AABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0476B231FDE9A460001AABC /* LaunchScreen.storyboard */; };
 		E0476B391FDE9B550001AABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0476B351FDE9B550001AABC /* main.m */; };
 		E0476B3A1FDE9B550001AABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0476B371FDE9B550001AABC /* AppDelegate.m */; };
 /* End PBXBuildFile section */
@@ -42,12 +43,14 @@
 		E043A48E1FDFADD8000564ED /* UIImage+ZBImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZBImage.m"; sourceTree = "<group>"; };
 		E043A4901FDFADFE000564ED /* UIView+ZBLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZBLayout.h"; sourceTree = "<group>"; };
 		E043A4911FDFADFE000564ED /* UIView+ZBLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZBLayout.m"; sourceTree = "<group>"; };
+		E043A4931FDFBF89000564ED /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		E043A4941FDFBF89000564ED /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		E043A4961FDFBFA1000564ED /* TestVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
+		E043A4971FDFBFA1000564ED /* TestVC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC2.m; sourceTree = "<group>"; };
+		E043A49A1FDFC66E000564ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ZBFM/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		E043A49C1FDFC66E000564ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ZBFM/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		E0476B151FDE9A460001AABC /* ZBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0476B1B1FDE9A460001AABC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E0476B1C1FDE9A460001AABC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E0476B1F1FDE9A460001AABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0476B211FDE9A460001AABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E0476B241FDE9A460001AABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0476B341FDE9B550001AABC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0476B351FDE9B550001AABC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0476B361FDE9B550001AABC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -124,10 +127,6 @@
 			children = (
 				E0476B2E1FDE9A920001AABC /* Classes */,
 				E0476B3B1FDE9CDC0001AABC /* Resource */,
-				E0476B1B1FDE9A460001AABC /* ViewController.h */,
-				E0476B1C1FDE9A460001AABC /* ViewController.m */,
-				E0476B1E1FDE9A460001AABC /* Main.storyboard */,
-				E0476B231FDE9A460001AABC /* LaunchScreen.storyboard */,
 			);
 			path = ZBFM;
 			sourceTree = "<group>";
@@ -137,6 +136,10 @@
 			children = (
 				E0476B301FDE9AB30001AABC /* MainModule */,
 				E0476B2F1FDE9AB30001AABC /* Other */,
+				E043A4931FDFBF89000564ED /* TestVC.h */,
+				E043A4941FDFBF89000564ED /* TestVC.m */,
+				E043A4961FDFBFA1000564ED /* TestVC2.h */,
+				E043A4971FDFBFA1000564ED /* TestVC2.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -182,6 +185,8 @@
 		E0476B3B1FDE9CDC0001AABC /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				E043A49B1FDFC66E000564ED /* LaunchScreen.storyboard */,
+				E043A4991FDFC66E000564ED /* Main.storyboard */,
 				E0476B211FDE9A460001AABC /* Assets.xcassets */,
 			);
 			path = Resource;
@@ -245,9 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0476B251FDE9A460001AABC /* LaunchScreen.storyboard in Resources */,
+				E043A49D1FDFC66E000564ED /* Main.storyboard in Resources */,
+				E043A49E1FDFC66E000564ED /* LaunchScreen.storyboard in Resources */,
 				E0476B221FDE9A460001AABC /* Assets.xcassets in Resources */,
-				E0476B201FDE9A460001AABC /* Main.storyboard in Resources */,
 				E043A47F1FDFA8EB000564ED /* ZBMiddleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,11 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E043A4951FDFBF89000564ED /* TestVC.m in Sources */,
 				E0476B391FDE9B550001AABC /* main.m in Sources */,
+				E043A4981FDFBFA1000564ED /* TestVC2.m in Sources */,
 				E012A8961FDEAB1800939CAB /* ZBNavBar.m in Sources */,
 				E012A8911FDEA9FB00939CAB /* ZBTabBarController.m in Sources */,
 				E012A8991FDEAB3300939CAB /* ZBTabBar.m in Sources */,
-				E0476B1D1FDE9A460001AABC /* ViewController.m in Sources */,
 				E0476B3A1FDE9B550001AABC /* AppDelegate.m in Sources */,
 				E012A88E1FDEA9E500939CAB /* ZBNavigationController.m in Sources */,
 				E043A48F1FDFADD8000564ED /* UIImage+ZBImage.m in Sources */,
@@ -276,18 +282,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E0476B1E1FDE9A460001AABC /* Main.storyboard */ = {
+		E043A4991FDFC66E000564ED /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E0476B1F1FDE9A460001AABC /* Base */,
+				E043A49A1FDFC66E000564ED /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E0476B231FDE9A460001AABC /* LaunchScreen.storyboard */ = {
+		E043A49B1FDFC66E000564ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E0476B241FDE9A460001AABC /* Base */,
+				E043A49C1FDFC66E000564ED /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
