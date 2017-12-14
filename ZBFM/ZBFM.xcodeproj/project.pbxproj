@@ -12,7 +12,6 @@
 		E012A8961FDEAB1800939CAB /* ZBNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A8951FDEAB1800939CAB /* ZBNavBar.m */; };
 		E012A8991FDEAB3300939CAB /* ZBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A8981FDEAB3300939CAB /* ZBTabBar.m */; };
 		E043A47D1FDFA8DE000564ED /* ZBMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */; };
-		E043A47F1FDFA8EB000564ED /* ZBMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E043A47E1FDFA8EB000564ED /* ZBMiddleView.xib */; };
 		E043A48C1FDFAD8A000564ED /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A48A1FDFAD8A000564ED /* CALayer+PauseAimate.m */; };
 		E043A48F1FDFADD8000564ED /* UIImage+ZBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A48E1FDFADD8000564ED /* UIImage+ZBImage.m */; };
 		E043A4921FDFADFE000564ED /* UIView+ZBLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A4911FDFADFE000564ED /* UIView+ZBLayout.m */; };
@@ -23,6 +22,7 @@
 		E0476B221FDE9A460001AABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0476B211FDE9A460001AABC /* Assets.xcassets */; };
 		E0476B391FDE9B550001AABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0476B351FDE9B550001AABC /* main.m */; };
 		E0476B3A1FDE9B550001AABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0476B371FDE9B550001AABC /* AppDelegate.m */; };
+		E0F9D5311FE2546E00136CB7 /* ZBMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0F9D5301FE2546E00136CB7 /* ZBMiddleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,6 @@
 		E012A8981FDEAB3300939CAB /* ZBTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTabBar.m; sourceTree = "<group>"; };
 		E043A47B1FDFA8DE000564ED /* ZBMiddleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBMiddleView.h; sourceTree = "<group>"; };
 		E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBMiddleView.m; sourceTree = "<group>"; };
-		E043A47E1FDFA8EB000564ED /* ZBMiddleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZBMiddleView.xib; sourceTree = "<group>"; };
 		E043A48A1FDFAD8A000564ED /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
 		E043A48B1FDFAD8A000564ED /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
 		E043A48D1FDFADD8000564ED /* UIImage+ZBImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZBImage.h"; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		E0476B351FDE9B550001AABC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0476B361FDE9B550001AABC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0476B371FDE9B550001AABC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0F9D5301FE2546E00136CB7 /* ZBMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZBMiddleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				E012A8981FDEAB3300939CAB /* ZBTabBar.m */,
 				E043A47B1FDFA8DE000564ED /* ZBMiddleView.h */,
 				E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */,
-				E043A47E1FDFA8EB000564ED /* ZBMiddleView.xib */,
+				E0F9D5301FE2546E00136CB7 /* ZBMiddleView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -253,7 +253,7 @@
 				E043A49D1FDFC66E000564ED /* Main.storyboard in Resources */,
 				E043A49E1FDFC66E000564ED /* LaunchScreen.storyboard in Resources */,
 				E0476B221FDE9A460001AABC /* Assets.xcassets in Resources */,
-				E043A47F1FDFA8EB000564ED /* ZBMiddleView.xib in Resources */,
+				E0F9D5311FE2546E00136CB7 /* ZBMiddleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

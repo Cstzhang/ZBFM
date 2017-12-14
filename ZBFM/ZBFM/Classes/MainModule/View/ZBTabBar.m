@@ -20,6 +20,7 @@
 
 @implementation ZBTabBar
 
+
 /**
  懒加载中间控件
  
@@ -56,7 +57,6 @@
     // 添加一个按钮, 准备放在中间
     CGFloat width = 65;
     CGFloat height = 65;
-    //设置 middleView
     self.middleView.frame = CGRectMake((kScreenWidth - width) * 0.5, (kScreenHeight - height), width, height);
     
 }
@@ -97,7 +97,6 @@
         }
     }
     
-    //居中显示
     self.middleView.centerX = self.frame.size.width * 0.5;
     self.middleView.y = self.height - self.middleView.height;
     

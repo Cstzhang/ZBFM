@@ -22,6 +22,7 @@
 
 @implementation ZBMiddleView
 static ZBMiddleView *_shareInstance;
+
 + (instancetype)shareInstance {
     if (_shareInstance == nil) {
         _shareInstance = [ZBMiddleView middleView];
@@ -52,6 +53,7 @@ static ZBMiddleView *_shareInstance;
     basicAnnimation.repeatCount = MAXFLOAT;
     basicAnnimation.removedOnCompletion = NO;
     [self.middleImageView.layer addAnimation:basicAnnimation forKey:@"playAnnimation"];
+    
     [self.middleImageView.layer pauseAnimate];
     
     
@@ -115,7 +117,6 @@ static ZBMiddleView *_shareInstance;
 -(void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
-
 
 
 

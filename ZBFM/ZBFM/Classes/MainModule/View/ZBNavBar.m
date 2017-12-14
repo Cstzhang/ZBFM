@@ -17,9 +17,7 @@
  */
 + (void)setGlobalBackGroundImage: (UIImage *)globalImg {
     
-    UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedIn:NSClassFromString(@"ZBNavigationController"), nil];
-//    UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[NSClassFromString(@"ZBNavigationController")]];
-
+    UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedIn:NSClassFromString(@"XMGNavigationController"), nil];
     [navBar setBackgroundImage:globalImg forBarMetrics:UIBarMetricsDefault];
     
     
@@ -37,8 +35,7 @@
     if (fontSize < 6 || fontSize > 40) {
         fontSize = 16;
     }
-//     UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[NSClassFromString(@"ZBNavigationController")]];
-    UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedIn:NSClassFromString(@"ZBNavigationController"), nil];
+    UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedIn:NSClassFromString(@"XMGNavigationController"), nil];
     // 设置导航栏颜色
     NSDictionary *titleDic = @{
                                NSForegroundColorAttributeName: globalTextColor,
