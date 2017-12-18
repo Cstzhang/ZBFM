@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BECE2131616EC8538390FDA /* Pods_ZBFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CB3B7BFBAE1302DF4E3FF9 /* Pods_ZBFM.framework */; };
 		E012A88E1FDEA9E500939CAB /* ZBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A88D1FDEA9E500939CAB /* ZBNavigationController.m */; };
 		E012A8911FDEA9FB00939CAB /* ZBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A8901FDEA9FB00939CAB /* ZBTabBarController.m */; };
 		E012A8961FDEAB1800939CAB /* ZBNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A8951FDEAB1800939CAB /* ZBNavBar.m */; };
 		E012A8991FDEAB3300939CAB /* ZBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A8981FDEAB3300939CAB /* ZBTabBar.m */; };
 		E043A47D1FDFA8DE000564ED /* ZBMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */; };
-		E043A48C1FDFAD8A000564ED /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A48A1FDFAD8A000564ED /* CALayer+PauseAimate.m */; };
-		E043A48F1FDFADD8000564ED /* UIImage+ZBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A48E1FDFADD8000564ED /* UIImage+ZBImage.m */; };
-		E043A4921FDFADFE000564ED /* UIView+ZBLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A4911FDFADFE000564ED /* UIView+ZBLayout.m */; };
 		E043A4951FDFBF89000564ED /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A4941FDFBF89000564ED /* TestVC.m */; };
 		E043A4981FDFBFA1000564ED /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A4971FDFBFA1000564ED /* TestVC2.m */; };
 		E043A49D1FDFC66E000564ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E043A4991FDFC66E000564ED /* Main.storyboard */; };
@@ -26,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B57D0AB6338802CDF74671E5 /* Pods-ZBFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZBFM/Pods-ZBFM.debug.xcconfig"; sourceTree = "<group>"; };
+		C0CB3B7BFBAE1302DF4E3FF9 /* Pods_ZBFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZBFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1135582342FA9C485E8C56 /* Pods-ZBFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZBFM/Pods-ZBFM.release.xcconfig"; sourceTree = "<group>"; };
 		E012A88C1FDEA9E500939CAB /* ZBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBNavigationController.h; sourceTree = "<group>"; };
 		E012A88D1FDEA9E500939CAB /* ZBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBNavigationController.m; sourceTree = "<group>"; };
 		E012A88F1FDEA9FB00939CAB /* ZBTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBTabBarController.h; sourceTree = "<group>"; };
@@ -36,12 +37,6 @@
 		E012A8981FDEAB3300939CAB /* ZBTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTabBar.m; sourceTree = "<group>"; };
 		E043A47B1FDFA8DE000564ED /* ZBMiddleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBMiddleView.h; sourceTree = "<group>"; };
 		E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBMiddleView.m; sourceTree = "<group>"; };
-		E043A48A1FDFAD8A000564ED /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
-		E043A48B1FDFAD8A000564ED /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
-		E043A48D1FDFADD8000564ED /* UIImage+ZBImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZBImage.h"; sourceTree = "<group>"; };
-		E043A48E1FDFADD8000564ED /* UIImage+ZBImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZBImage.m"; sourceTree = "<group>"; };
-		E043A4901FDFADFE000564ED /* UIView+ZBLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZBLayout.h"; sourceTree = "<group>"; };
-		E043A4911FDFADFE000564ED /* UIView+ZBLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZBLayout.m"; sourceTree = "<group>"; };
 		E043A4931FDFBF89000564ED /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
 		E043A4941FDFBF89000564ED /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 		E043A4961FDFBFA1000564ED /* TestVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
@@ -62,12 +57,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BECE2131616EC8538390FDA /* Pods_ZBFM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		724906759C5898F24CF133A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0CB3B7BFBAE1302DF4E3FF9 /* Pods_ZBFM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		930C576BFF08CB0C8C3CB201 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B57D0AB6338802CDF74671E5 /* Pods-ZBFM.debug.xcconfig */,
+				CC1135582342FA9C485E8C56 /* Pods-ZBFM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E012A8921FDEAA4A00939CAB /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,24 +106,13 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		E043A4891FDFAD84000564ED /* Categoty */ = {
-			isa = PBXGroup;
-			children = (
-				E043A48B1FDFAD8A000564ED /* CALayer+PauseAimate.h */,
-				E043A48A1FDFAD8A000564ED /* CALayer+PauseAimate.m */,
-				E043A48D1FDFADD8000564ED /* UIImage+ZBImage.h */,
-				E043A48E1FDFADD8000564ED /* UIImage+ZBImage.m */,
-				E043A4901FDFADFE000564ED /* UIView+ZBLayout.h */,
-				E043A4911FDFADFE000564ED /* UIView+ZBLayout.m */,
-			);
-			path = Categoty;
-			sourceTree = "<group>";
-		};
 		E0476B0C1FDE9A460001AABC = {
 			isa = PBXGroup;
 			children = (
 				E0476B171FDE9A460001AABC /* ZBFM */,
 				E0476B161FDE9A460001AABC /* Products */,
+				930C576BFF08CB0C8C3CB201 /* Pods */,
+				724906759C5898F24CF133A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,7 +178,6 @@
 		E0476B331FDE9B100001AABC /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
-				E043A4891FDFAD84000564ED /* Categoty */,
 			);
 			name = BaseClasses;
 			path = ZBFM/BaseClasses;
@@ -199,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0476B2B1FDE9A460001AABC /* Build configuration list for PBXNativeTarget "ZBFM" */;
 			buildPhases = (
+				EE286A99DB8A3A30DFC39E8D /* [CP] Check Pods Manifest.lock */,
 				E0476B111FDE9A460001AABC /* Sources */,
 				E0476B121FDE9A460001AABC /* Frameworks */,
 				E0476B131FDE9A460001AABC /* Resources */,
+				5D8FE2460C3CF87286892102 /* [CP] Embed Pods Frameworks */,
+				DA8B5541ABFA2D447458FA81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +263,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D8FE2460C3CF87286892102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZBFM/Pods-ZBFM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ZBFMBase/ZBFMBase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZBFMBase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBFM/Pods-ZBFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA8B5541ABFA2D447458FA81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZBFM/Pods-ZBFM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE286A99DB8A3A30DFC39E8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZBFM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0476B111FDE9A460001AABC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,9 +330,6 @@
 				E012A8991FDEAB3300939CAB /* ZBTabBar.m in Sources */,
 				E0476B3A1FDE9B550001AABC /* AppDelegate.m in Sources */,
 				E012A88E1FDEA9E500939CAB /* ZBNavigationController.m in Sources */,
-				E043A48F1FDFADD8000564ED /* UIImage+ZBImage.m in Sources */,
-				E043A4921FDFADFE000564ED /* UIView+ZBLayout.m in Sources */,
-				E043A48C1FDFAD8A000564ED /* CALayer+PauseAimate.m in Sources */,
 				E043A47D1FDFA8DE000564ED /* ZBMiddleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +462,7 @@
 		};
 		E0476B2C1FDE9A460001AABC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57D0AB6338802CDF74671E5 /* Pods-ZBFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -422,6 +478,7 @@
 		};
 		E0476B2D1FDE9A460001AABC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1135582342FA9C485E8C56 /* Pods-ZBFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

@@ -1,0 +1,9 @@
+ source ‘git@gitee.com:zbFish/ZBFMSpecs.git’
+ platform :ios, ‘8.0’
+
+target 'ZBFM' do
+  use_frameworks!
+  pod 'ZBFMBase', '~> 0.1.0'
+
+
+end
