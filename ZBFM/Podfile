@@ -5,7 +5,7 @@
 
 target 'ZBFM' do
   use_frameworks!
-  pod 'ZBFMBase'
-
+#  pod 'ZBFMBase/Categoty'
+  pod 'ZBFMBase', :subspecs => ['Base', 'Categoty']
 
 end
