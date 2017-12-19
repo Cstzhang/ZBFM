@@ -5,7 +5,7 @@
 
 target 'ZBFM' do
   use_frameworks!
-  pod 'ZBFMBase', '~> 0.1.0'
+  pod 'ZBFMBase', '~> 0.4.0'
 
 
 end
