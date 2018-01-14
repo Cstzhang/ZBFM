@@ -1,14 +1,15 @@
 PODS:
-  - ZBFMBase/Base (0.6.0)
   - ZBFMBase/Categoty (0.6.0)
+  - ZBFMMain (0.1.0):
+    - ZBFMBase/Categoty
 
 DEPENDENCIES:
-  - ZBFMBase/Base
-  - ZBFMBase/Categoty
+  - ZBFMMain
 
 SPEC CHECKSUMS:
   ZBFMBase: 9ec38a6a65a0e25285d6b3e4b88196360bb0b2db
+  ZBFMMain: 5f619cca81353212c6a52073e5c2fed0a0b5987b
 
-PODFILE CHECKSUM: 9319319850c53fbaf6f94a52cd8bc1d98a7baea2
+PODFILE CHECKSUM: 24d9f649ba0265eed37ca3c9a29f149dab87269d
 
 COCOAPODS: 1.3.1

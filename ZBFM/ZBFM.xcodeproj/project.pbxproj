@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3BECE2131616EC8538390FDA /* Pods_ZBFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CB3B7BFBAE1302DF4E3FF9 /* Pods_ZBFM.framework */; };
-		E012A88E1FDEA9E500939CAB /* ZBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A88D1FDEA9E500939CAB /* ZBNavigationController.m */; };
-		E012A8911FDEA9FB00939CAB /* ZBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A8901FDEA9FB00939CAB /* ZBTabBarController.m */; };
-		E012A8961FDEAB1800939CAB /* ZBNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A8951FDEAB1800939CAB /* ZBNavBar.m */; };
-		E012A8991FDEAB3300939CAB /* ZBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E012A8981FDEAB3300939CAB /* ZBTabBar.m */; };
-		E043A47D1FDFA8DE000564ED /* ZBMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */; };
 		E043A4951FDFBF89000564ED /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A4941FDFBF89000564ED /* TestVC.m */; };
 		E043A4981FDFBFA1000564ED /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = E043A4971FDFBFA1000564ED /* TestVC2.m */; };
 		E043A49D1FDFC66E000564ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E043A4991FDFC66E000564ED /* Main.storyboard */; };
@@ -20,23 +15,12 @@
 		E0476B221FDE9A460001AABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0476B211FDE9A460001AABC /* Assets.xcassets */; };
 		E0476B391FDE9B550001AABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0476B351FDE9B550001AABC /* main.m */; };
 		E0476B3A1FDE9B550001AABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0476B371FDE9B550001AABC /* AppDelegate.m */; };
-		E0F9D5311FE2546E00136CB7 /* ZBMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0F9D5301FE2546E00136CB7 /* ZBMiddleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B57D0AB6338802CDF74671E5 /* Pods-ZBFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZBFM/Pods-ZBFM.debug.xcconfig"; sourceTree = "<group>"; };
 		C0CB3B7BFBAE1302DF4E3FF9 /* Pods_ZBFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZBFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1135582342FA9C485E8C56 /* Pods-ZBFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZBFM/Pods-ZBFM.release.xcconfig"; sourceTree = "<group>"; };
-		E012A88C1FDEA9E500939CAB /* ZBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBNavigationController.h; sourceTree = "<group>"; };
-		E012A88D1FDEA9E500939CAB /* ZBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBNavigationController.m; sourceTree = "<group>"; };
-		E012A88F1FDEA9FB00939CAB /* ZBTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBTabBarController.h; sourceTree = "<group>"; };
-		E012A8901FDEA9FB00939CAB /* ZBTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTabBarController.m; sourceTree = "<group>"; };
-		E012A8941FDEAB1800939CAB /* ZBNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBNavBar.h; sourceTree = "<group>"; };
-		E012A8951FDEAB1800939CAB /* ZBNavBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBNavBar.m; sourceTree = "<group>"; };
-		E012A8971FDEAB3300939CAB /* ZBTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBTabBar.h; sourceTree = "<group>"; };
-		E012A8981FDEAB3300939CAB /* ZBTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTabBar.m; sourceTree = "<group>"; };
-		E043A47B1FDFA8DE000564ED /* ZBMiddleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBMiddleView.h; sourceTree = "<group>"; };
-		E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBMiddleView.m; sourceTree = "<group>"; };
 		E043A4931FDFBF89000564ED /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
 		E043A4941FDFBF89000564ED /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 		E043A4961FDFBFA1000564ED /* TestVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
@@ -49,7 +33,6 @@
 		E0476B351FDE9B550001AABC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0476B361FDE9B550001AABC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0476B371FDE9B550001AABC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0F9D5301FE2546E00136CB7 /* ZBMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZBMiddleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,31 +62,6 @@
 				CC1135582342FA9C485E8C56 /* Pods-ZBFM.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		E012A8921FDEAA4A00939CAB /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E012A8941FDEAB1800939CAB /* ZBNavBar.h */,
-				E012A8951FDEAB1800939CAB /* ZBNavBar.m */,
-				E012A8971FDEAB3300939CAB /* ZBTabBar.h */,
-				E012A8981FDEAB3300939CAB /* ZBTabBar.m */,
-				E043A47B1FDFA8DE000564ED /* ZBMiddleView.h */,
-				E043A47C1FDFA8DE000564ED /* ZBMiddleView.m */,
-				E0F9D5301FE2546E00136CB7 /* ZBMiddleView.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E012A8931FDEAA4A00939CAB /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E012A88C1FDEA9E500939CAB /* ZBNavigationController.h */,
-				E012A88D1FDEA9E500939CAB /* ZBNavigationController.m */,
-				E012A88F1FDEA9FB00939CAB /* ZBTabBarController.h */,
-				E012A8901FDEA9FB00939CAB /* ZBTabBarController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		E0476B0C1FDE9A460001AABC = {
@@ -136,7 +94,6 @@
 		E0476B2E1FDE9A920001AABC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E0476B301FDE9AB30001AABC /* MainModule */,
 				E0476B2F1FDE9AB30001AABC /* Other */,
 				E043A4931FDFBF89000564ED /* TestVC.h */,
 				E043A4941FDFBF89000564ED /* TestVC.m */,
@@ -149,19 +106,9 @@
 		E0476B2F1FDE9AB30001AABC /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				E0476B331FDE9B100001AABC /* BaseClasses */,
 				E0476B311FDE9AD20001AABC /* System */,
 			);
 			path = Other;
-			sourceTree = "<group>";
-		};
-		E0476B301FDE9AB30001AABC /* MainModule */ = {
-			isa = PBXGroup;
-			children = (
-				E012A8931FDEAA4A00939CAB /* Controller */,
-				E012A8921FDEAA4A00939CAB /* View */,
-			);
-			path = MainModule;
 			sourceTree = "<group>";
 		};
 		E0476B311FDE9AD20001AABC /* System */ = {
@@ -174,14 +121,6 @@
 			);
 			path = System;
 			sourceTree = "<group>";
-		};
-		E0476B331FDE9B100001AABC /* BaseClasses */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = BaseClasses;
-			path = ZBFM/BaseClasses;
-			sourceTree = SOURCE_ROOT;
 		};
 		E0476B3B1FDE9CDC0001AABC /* Resource */ = {
 			isa = PBXGroup;
@@ -257,7 +196,6 @@
 				E043A49D1FDFC66E000564ED /* Main.storyboard in Resources */,
 				E043A49E1FDFC66E000564ED /* LaunchScreen.storyboard in Resources */,
 				E0476B221FDE9A460001AABC /* Assets.xcassets in Resources */,
-				E0F9D5311FE2546E00136CB7 /* ZBMiddleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +210,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZBFM/Pods-ZBFM-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ZBFMBase/ZBFMBase.framework",
+				"${BUILT_PRODUCTS_DIR}/ZBFMMain/ZBFMMain.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZBFMBase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZBFMMain.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -325,12 +265,7 @@
 				E043A4951FDFBF89000564ED /* TestVC.m in Sources */,
 				E0476B391FDE9B550001AABC /* main.m in Sources */,
 				E043A4981FDFBFA1000564ED /* TestVC2.m in Sources */,
-				E012A8961FDEAB1800939CAB /* ZBNavBar.m in Sources */,
-				E012A8911FDEA9FB00939CAB /* ZBTabBarController.m in Sources */,
-				E012A8991FDEAB3300939CAB /* ZBTabBar.m in Sources */,
 				E0476B3A1FDE9B550001AABC /* AppDelegate.m in Sources */,
-				E012A88E1FDEA9E500939CAB /* ZBNavigationController.m in Sources */,
-				E043A47D1FDFA8DE000564ED /* ZBMiddleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
