@@ -1,6 +1,6 @@
 PODS:
   - ZBFMBase/Categoty (0.6.0)
-  - ZBFMMain (0.1.0):
+  - ZBFMMain (0.1.1):
     - ZBFMBase/Categoty
 
 DEPENDENCIES:
@@ -8,7 +8,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   ZBFMBase: 9ec38a6a65a0e25285d6b3e4b88196360bb0b2db
-  ZBFMMain: 5f619cca81353212c6a52073e5c2fed0a0b5987b
+  ZBFMMain: b9a0edeaf4b1aca6ccb7dd8a4b9c18f382f841df
 
 PODFILE CHECKSUM: 24d9f649ba0265eed37ca3c9a29f149dab87269d
 
